@@ -1,1 +1,26 @@
-
+@yilannnh ➜ /workspaces/cli-basics-yilannnh (main) $ pwd
+/workspaces/cli-basics-yilannnh
+@yilannnh ➜ /workspaces/cli-basics-yilannnh (main) $ mkdir CLIBasicsFolder
+@yilannnh ➜ /workspaces/cli-basics-yilannnh (main) $ ls
+CLIBasicsFolder  README.md  TerminalSession.txt
+@yilannnh ➜ /workspaces/cli-basics-yilannnh (main) $ cd CLIBasicsFolder
+@yilannnh ➜ /workspaces/cli-basics-yilannnh/CLIBasicsFolder (main) $ touch myfile.txt
+@yilannnh ➜ /workspaces/cli-basics-yilannnh/CLIBasicsFolder (main ✗) $ echo Yilan Hong ICS4Ub
+Yilan Hong ICS4Ub
+@yilannnh ➜ /workspaces/cli-basics-yilannnh/CLIBasicsFolder (main ✗) $ echo Yilan Hong ICS4Ub >> myfile.txt
+@yilannnh ➜ /workspaces/cli-basics-yilannnh/CLIBasicsFolder (main ✗) $ cat myfile.txt
+Yilan Hong ICS4Ub
+@yilannnh ➜ /workspaces/cli-basics-yilannnh/CLIBasicsFolder (main ✗) $ cp myfile.txt myfile_copy.txt
+@yilannnh ➜ /workspaces/cli-basics-yilannnh/CLIBasicsFolder (main ✗) $ ls
+myfile_copy.txt  myfile.txt
+@yilannnh ➜ /workspaces/cli-basics-yilannnh/CLIBasicsFolder (main ✗) $ mv myfile_copy.txt myfile2.txt
+@yilannnh ➜ /workspaces/cli-basics-yilannnh/CLIBasicsFolder (main ✗) $ ls
+myfile2.txt  myfile.txt
+@yilannnh ➜ /workspaces/cli-basics-yilannnh/CLIBasicsFolder (main ✗) $ mv myfile2.txt ~
+@yilannnh ➜ /workspaces/cli-basics-yilannnh/CLIBasicsFolder (main ✗) $ ls ~
+myfile2.txt
+@yilannnh ➜ /workspaces/cli-basics-yilannnh/CLIBasicsFolder (main ✗) $ cd ..
+@yilannnh ➜ /workspaces/cli-basics-yilannnh (main ✗) $ rm -r CLIBasicsFolder
+@yilannnh ➜ /workspaces/cli-basics-yilannnh (main) $ ls ~
+myfile2.txt
+@yilannnh ➜ /workspaces/cli-basics-yilannnh (main) $ 
